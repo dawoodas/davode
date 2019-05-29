@@ -57,4 +57,5 @@ client.user.setStatus("online")
  
  
  
-client.login();
+client.login(process.env.BOT_TOKEN);
+
